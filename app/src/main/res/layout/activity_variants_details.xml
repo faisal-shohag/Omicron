@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".variantsDetails">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#F44336"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/varinat_actionbar_image"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/virus"
+            />
+        <TextView
+            android:id="@+id/variants_detalis_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="Omicron"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/variants_detalis_img"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_height="100dp"
+        android:src="@drawable/virus"></ImageView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:background="#F8F2F2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/variant_details_txt"
+           android:fontFamily="@font/lato_regular"
+           android:textSize="16dp"
+           android:padding="10dp"
+           android:text="Imperial College London investigated over a million people in England while the Alpha variant was dominant and discovered a wide range of further symptoms linked to Covid. Chills, loss of appetite, headache and muscle aches were most common in infected people, as well as classic symptoms."
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

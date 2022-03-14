@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="#fff"
+    android:layout_height="60dp"
+    >
+
+    <ImageView
+        android:id="@+id/list_variants_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:src="@drawable/virus"></ImageView>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/list_variants_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:text="Omicron"
+           android:padding="5dp"
+           android:fontFamily="@font/lato_regular"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:textColor="#EA0303"/>
+       <TextView
+           android:id="@+id/subtext"
+           android:layout_width="match_parent"
+           android:text="United Kingdom, Sep 2020"
+           android:layout_marginLeft="5dp"
+           android:fontFamily="@font/lato_regular"
+           android:layout_height="match_parent"/>
+
+   </LinearLayout>
+
+
+</LinearLayout>

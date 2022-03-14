@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_array">
+        <item>World</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Myanmar</item>
+        <item>USA</item>
+        <item>United Kingdom</item>
+        <item>Russian Federation</item>
+
+    </string-array>
+</resources>
